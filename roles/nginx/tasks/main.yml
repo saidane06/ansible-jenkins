@@ -1,5 +1,5 @@
 - name: install nginx
-  apt: 
+  dnf: 
     name:
       - nginx
     state: present
